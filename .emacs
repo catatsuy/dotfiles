@@ -115,9 +115,6 @@
 ;;; バックアップファイルを作らない
 (setq backup-inhibited t)
 
-;;; 終了時にオートセーブファイルを消す
-(setq delete-auto-save-files t)
-
 ;; php
 (add-to-list 'load-path "~/.emacs.d/site-lisp/php-mode")
 (autoload 'php-mode "php-mode" "Major mode for editing php code." t)
