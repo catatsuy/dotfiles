@@ -115,6 +115,9 @@
 ;;; バックアップファイルを作らない
 (setq backup-inhibited t)
 
+;;; .#* とかのバックアップファイルを作らない
+(setq auto-save-default nil)
+
 ;; php
 (add-to-list 'load-path "~/.emacs.d/site-lisp/php-mode")
 (autoload 'php-mode "php-mode" "Major mode for editing php code." t)
