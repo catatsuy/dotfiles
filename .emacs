@@ -69,6 +69,12 @@
 ;; 関数名を表示
 (which-function-mode 1)
 
+;; google-c-style
+(add-to-list 'load-path "~/.emacs.d/site-lisp/")
+(require 'google-c-style)
+(add-hook 'c-mode-common-hook 'google-set-c-style)
+(add-hook 'c-mode-common-hook 'google-make-newline-indent)
+
 ;; 次のウィンドウへ移動
 (define-key global-map (kbd "C-M-n") 'next-multiframe-window)
 ;; 前のウィンドウへ移動
@@ -124,6 +130,11 @@
 (add-to-list 'auto-mode-alist '("\\.php$" . php-mode))
 (add-to-list 'auto-mode-alist '("\\.inc$" . php-mode))
 (setq auto-mode-alist (cons '("\\.ctp$" . html-mode) auto-mode-alist))
+
+;; SCSS
+(autoload 'scss-mode "scss-mode")
+(setq scss-compile-at-save nil) ;; 自動コンパイルをオフにする
+(add-to-list 'auto-mode-alist '("\\.scss\\'" . scss-mode))
 
 ;; Perlの設定
 (defalias 'perl-mode 'cperl-mode)
