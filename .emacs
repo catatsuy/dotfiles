@@ -70,6 +70,9 @@
 (which-function-mode 1)
 
 ;; google-c-style
+(setq auto-mode-alist
+      (append '(("\\.h\\(\\..+\\)?$" . c++-mode))
+              auto-mode-alist))
 (add-to-list 'load-path "~/.emacs.d/site-lisp/")
 (require 'google-c-style)
 (add-hook 'c-mode-common-hook 'google-set-c-style)
