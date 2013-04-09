@@ -14,10 +14,6 @@
 ;; 編集時 buffer 再読み込み
 (global-auto-revert-mode 1)
 
-;; 同名ファイルのバッファ名の識別文字列を変更する
-(require 'uniquify)
-(setq uniquify-buffer-name-style 'post-forward-angle-brackets)
-
 ;; Menuを隠す
 (custom-set-variables
  '(display-time-mode t)
@@ -28,17 +24,12 @@
 ;; スクロールバーを消す
 (toggle-scroll-bar nil)
 
-;; ;; Font設定（Ubuntu専用）
-(set-default-font "DejaVu Sans Mono-10")
-(set-face-font 'variable-pitch "DejaVu Sans Mono-10")
-(set-fontset-font (frame-parameter nil 'font)
-                  'japanese-jisx0208
-                  '("Takaoゴシック" . "unicode-bmp")
-                  )
+;; 行番号を指定して移動する機能をM-zに割り当て
+(global-set-key "\M-z" 'goto-line)
 
 ;; iswitchbの設定
 (iswitchb-mode 1)
-;; (iswitchb-default-keybindings)
+(iswitchb-default-keybindings)
 
 (add-hook 'iswitchb-define-mode-map-hook
           'iswitchb-my-keys)
@@ -83,16 +74,6 @@
 ;; 前のウィンドウへ移動
 (define-key global-map (kbd "C-M-p") 'previous-multiframe-window)
 
-;; ibusの設定
-(add-to-list 'load-path "~/.emacs.d/site-lisp/ibus-el")
-(require 'ibus)
-(add-hook 'after-init-hook 'ibus-mode-on)
-(ibus-define-common-key ?\C-\s nil)
-;; IBusの状態によってカーソル色を変化させる
-(setq ibus-cursor-color '("red" "blue" "limegreen"))
-;; C-j で半角英数モードをトグルする
-(ibus-define-common-key ?\C-j t)
-
 ;; YaTeXのもろもろの設定
 (add-to-list 'load-path "~/.emacs.d/site-lisp/yatex")
 (setq YaTeX-kanji-code 4)
@@ -106,6 +87,8 @@
 (setq YaTeX-use-AMS-LaTeX t)
 
 (setq YaTeX-inhibit-prefix-letter nil)
+
+(add-hook ' yatex-mode-hook '(lambda () (auto-fill-mode -1)))
 
 ;; Aspellの設定
 (setq-default ispell-program-name "aspell")
@@ -149,3 +132,24 @@ cperl-tab-always-indent t)
 (setq linum-delay t)
 (defadvice linum-schedule (around my-linum-schedule () activate)
   (run-with-idle-timer 0.2 nil #'linum-update-current))
+
+
+;; Ubuntu
+
+;; Font設定
+(set-default-font "DejaVu Sans Mono-10")
+(set-face-font 'variable-pitch "DejaVu Sans Mono-10")
+(set-fontset-font (frame-parameter nil 'font)
+                  'japanese-jisx0208
+                  '("Takaoゴシック" . "unicode-bmp")
+                  )
+
+;; ibusの設定
+(add-to-list 'load-path "~/.emacs.d/site-lisp/ibus-el")
+(require 'ibus)
+(add-hook 'after-init-hook 'ibus-mode-on)
+(ibus-define-common-key ?\C-\s nil)
+;; IBusの状態によってカーソル色を変化させる
+(setq ibus-cursor-color '("red" "blue" "limegreen"))
+;; C-j で半角英数モードをトグルする
+(ibus-define-common-key ?\C-j t)
