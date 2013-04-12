@@ -95,6 +95,15 @@
 (eval-after-load "ispell"
   '(add-to-list 'ispell-skip-region-alist '("[^\000-\377]+")))
 
+;; インデントをスペースに
+(defun my-c-mode-hook ()
+  (c-set-style "linux")
+  (setq tab-width 4)
+  (setq c-basic-offset tab-width))
+(add-hook 'c-mode-hook 'my-c-mode-hook)
+(setq-default tab-width 4 indent-tabs-mode nil)
+(setq-default indent-tab-mode nil)
+
 ;;; バックアップファイルを作らない
 (setq backup-inhibited t)
 
@@ -118,21 +127,37 @@
 (require 'cperl-mode)
 
 (setq cperl-indent-level 4
-cperl-close-paren-offset -4
-cperl-continued-statement-offset 4
-cperl-indent-parens-as-block t
-cperl-tab-always-indent t)
+      cperl-close-paren-offset -4
+      cperl-continued-statement-offset 4
+      cperl-indent-parens-as-block t
+      cperl-tab-always-indent t)
+(add-hook 'cperl-mode-hook '(lambda () (setq indent-tabs-mode nil)))
+
+(setq auto-mode-alist (cons '("\\.t$" . cperl-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("\\.psgi$" . cperl-mode) auto-mode-alist))
 
 ;; Markdown
 (add-to-list 'load-path "~/.emacs.d/site-lisp/markdown-mode/")
 (autoload 'markdown-mode "markdown-mode.el" "Major mode for editing Markdown files" t)
 (setq auto-mode-alist (cons '("\\.md$" . markdown-mode) auto-mode-alist))
 
-;; 高速化
+;; linum-mode をいじって Emacs を高速化
 (setq linum-delay t)
 (defadvice linum-schedule (around my-linum-schedule () activate)
   (run-with-idle-timer 0.2 nil #'linum-update-current))
 
+;; to LARGE C-x C-u と to small C-x C-l
+(put 'upcase-region 'disabled nil)
+(put 'downcase-region 'disabled nil)
+
+;; scala
+(add-to-list 'load-path "~/.emacs.d/site-lisp/scala-mode")
+(require 'scala-mode-auto)
+
+;; haskell
+(load "~/.emacs.d/site-lisp/haskell-mode/haskell-site-file")
+(custom-set-variables
+     '(haskell-mode-hook '(turn-on-haskell-indentation)))
 
 ;; Ubuntu
 
