@@ -29,7 +29,7 @@
 
 ;; iswitchbの設定
 (iswitchb-mode 1)
-(iswitchb-default-keybindings)
+;; (iswitchb-default-keybindings)
 
 (add-hook 'iswitchb-define-mode-map-hook
           'iswitchb-my-keys)
@@ -60,11 +60,16 @@
 ;; 関数名を表示
 (which-function-mode 1)
 
+;; ~/.emacs.d/site-lisp 以下全部読み込み
+(let ((default-directory (expand-file-name "~/.emacs.d/site-lisp")))
+  (add-to-list 'load-path default-directory)
+  (if (fboundp 'normal-top-level-add-subdirs-to-load-path)
+      (normal-top-level-add-subdirs-to-load-path)))
+
 ;; google-c-style
 (setq auto-mode-alist
       (append '(("\\.h\\(\\..+\\)?$" . c++-mode))
               auto-mode-alist))
-(add-to-list 'load-path "~/.emacs.d/site-lisp/")
 (require 'google-c-style)
 (add-hook 'c-mode-common-hook 'google-set-c-style)
 (add-hook 'c-mode-common-hook 'google-make-newline-indent)
@@ -75,7 +80,6 @@
 (define-key global-map (kbd "C-M-p") 'previous-multiframe-window)
 
 ;; YaTeXのもろもろの設定
-(add-to-list 'load-path "~/.emacs.d/site-lisp/yatex")
 (setq YaTeX-kanji-code 4)
 (setq auto-mode-alist
       (cons (cons "\\.tex$" 'yatex-mode) auto-mode-alist))
@@ -111,7 +115,6 @@
 (setq auto-save-default nil)
 
 ;; php
-(add-to-list 'load-path "~/.emacs.d/site-lisp/php-mode")
 (autoload 'php-mode "php-mode" "Major mode for editing php code." t)
 (add-to-list 'auto-mode-alist '("\\.php$" . php-mode))
 (add-to-list 'auto-mode-alist '("\\.inc$" . php-mode))
@@ -137,7 +140,6 @@
 (setq auto-mode-alist (cons '("\\.psgi$" . cperl-mode) auto-mode-alist))
 
 ;; Markdown
-(add-to-list 'load-path "~/.emacs.d/site-lisp/markdown-mode/")
 (autoload 'markdown-mode "markdown-mode.el" "Major mode for editing Markdown files" t)
 (setq auto-mode-alist (cons '("\\.md$" . markdown-mode) auto-mode-alist))
 
@@ -151,11 +153,9 @@
 (put 'downcase-region 'disabled nil)
 
 ;; scala
-(add-to-list 'load-path "~/.emacs.d/site-lisp/scala-mode")
 (require 'scala-mode-auto)
 
 ;; haskell
-(load "~/.emacs.d/site-lisp/haskell-mode/haskell-site-file")
 (custom-set-variables
      '(haskell-mode-hook '(turn-on-haskell-indentation)))
 
@@ -170,7 +170,6 @@
                   )
 
 ;; ibusの設定
-(add-to-list 'load-path "~/.emacs.d/site-lisp/ibus-el")
 (require 'ibus)
 (add-hook 'after-init-hook 'ibus-mode-on)
 (ibus-define-common-key ?\C-\s nil)
