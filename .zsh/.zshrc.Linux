@@ -1,5 +1,0 @@
-alias ls='ls --color=auto'
-
-alias open='gnome-open'
-alias emacs='XMODIFIERS=@im=none emacs'
-alias acroread='env UBUNTU_MENUPROXY= acroread'
