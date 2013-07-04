@@ -3,10 +3,10 @@ all:
 	make gitignore
 
 ln:
-	ln -s .tmux.conf     ~/.tmux.conf
-	ln -s .zshenv        ~/.zshenv
-	ln -s dot.gitignore  ~/.gitignore
-	ln -s .aspell.conf   ~/.aspell.conf
+	ln -s ~/Documents/dotfiles/.tmux.conf     ~/.tmux.conf
+	ln -s ~/Documents/dotfiles/.zshenv        ~/.zshenv
+	ln -s ~/Documents/dotfiles/dot.gitignore  ~/.gitignore
+	ln -s ~/Documents/dotfiles/.aspell.conf   ~/.aspell.conf
 
 gitignore:
 	git config --global core.excludesfile ~/.gitignore
