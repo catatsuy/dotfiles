@@ -1,7 +1,7 @@
 dotfiles
 ==================================
 
-    cd ~/Documents
+    cd
     git clone git://github.com/catatsuy/dotfiles.git
     cd dotfiles
     make
