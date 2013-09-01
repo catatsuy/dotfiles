@@ -2,7 +2,7 @@ dotfiles
 ==================================
 
     cd
-    git clone git://github.com/catatsuy/dotfiles.git
+    git clone --recursive git://github.com/catatsuy/dotfiles.git
     cd dotfiles
     make
 
