@@ -8,6 +8,11 @@ auto-save-list
 tramp
 .\#*
 
+## GLOBAL
+GPATH
+GRTAGS
+GSYMS
+GTAGS
 
 ## OSX
 .DS_Store
