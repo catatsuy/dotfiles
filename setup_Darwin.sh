@@ -1,4 +1,4 @@
-brew install --disable-etcdir zsh
+brew install zsh
 brew install tmux
 brew install reattach-to-user-namespace
 brew install git
@@ -15,4 +15,3 @@ brew install haskell-platform
 # emacs
 brew install cmigemo
 brew install --with-lang-en aspell
-
