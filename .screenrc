@@ -1,0 +1,11 @@
+escape ^Tt
+vbell off
+bind w windowlist -b
+
+bind n next
+bind p prev
+bind k kill
+
+startup_message off
+
+hardstatus alwayslastline "%`%-w%{=b bw}%n %t%{-}%+w"
