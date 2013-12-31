@@ -8,4 +8,6 @@ bind k kill
 
 startup_message off
 
+shell "/bin/zsh"
+
 hardstatus alwayslastline "%`%-w%{=b bw}%n %t%{-}%+w"
