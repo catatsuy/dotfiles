@@ -1,4 +1,4 @@
-escape ^Tt
+escape ^Xx
 vbell off
 bind w windowlist -b
 
