@@ -9,5 +9,7 @@ bind k kill
 startup_message off
 
 shell "/bin/zsh"
+term xterm-256color
 
 hardstatus alwayslastline "%`%-w%{=b bw}%n %t%{-}%+w"
+altscreen on
