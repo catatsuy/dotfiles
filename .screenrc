@@ -11,5 +11,7 @@ startup_message off
 shell "/bin/zsh"
 term xterm-256color
 
-hardstatus alwayslastline "%`%-w%{=b bw}%n %t%{-}%+w"
+hardstatus alwayslastline '%{= kg}%H %{-}%L=%{= kb}%-w%{-}%45L>%{=u kr}%n %t%{-}%{= kb}%+w %-17<%=%{-}%{= .y}(%l)'
+
+vbell off
 altscreen on
