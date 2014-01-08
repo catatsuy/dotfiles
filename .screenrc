@@ -5,6 +5,7 @@ bind w windowlist -b
 bind n next
 bind p prev
 bind k kill
+bind , title
 
 startup_message off
 
