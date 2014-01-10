@@ -1,18 +1,16 @@
 escape ^Xx
+
 vbell off
-bind w windowlist -b
+startup_message off
+altscreen on
 
 bind n next
 bind p prev
 bind k kill
 bind , title
-
-startup_message off
+bind w windowlist -b
 
 shell "/bin/zsh"
 term xterm-256color
 
 hardstatus alwayslastline '%{= kg}%H %{-}%L=%{= kb}%-w%{-}%45L>%{=u kr}%n %t%{-}%{= kb}%+w %-17<%=%{-}%{= .y}(%l)'
-
-vbell off
-altscreen on
