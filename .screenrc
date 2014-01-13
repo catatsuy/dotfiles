@@ -13,4 +13,4 @@ bind w windowlist -b
 shell "/bin/zsh"
 term xterm-256color
 
-hardstatus alwayslastline '%{= kg}%H %{-}%L=%{= kb}%-w%{-}%45L>%{=u kr}%n %t%{-}%{= kb}%+w %-17<%=%{-}%{= .y}(%l)'
+hardstatus alwayslastline '%{= kw}%02c:%s %{= .y}%H %L=%{= .b}%-w%46>%{= .r}%n %t*%{= .b}%+w%-16=%{= .y}[%l]'
