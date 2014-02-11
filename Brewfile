@@ -13,6 +13,12 @@ install tig
 install --with-lua --with-perl --override-system-vi vim
 install scala
 install haskell-platform
+install gnu-tar
+
+# ruby
+install autoconf
+install pkg-config
+install openssl
 
 # emacs
 install cmigemo
