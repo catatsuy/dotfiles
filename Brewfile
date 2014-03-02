@@ -1,26 +1,27 @@
 update
 
-install zsh
-install tmux
-install reattach-to-user-namespace
-install git
-install coreutils
-install mobile-shell
-install nkf
-install colordiff
-install wget
-install tig
-install --with-lua --with-perl --override-system-vi vim
-install scala
-install haskell-platform
-install gnu-tar
+install zsh || true
+install tmux || true
+install reattach-to-user-namespace || true
+install git || true
+install coreutils || true
+install mobile-shell || true
+install nkf || true
+install colordiff || true
+install wget || true
+install tig || true
+install --with-lua --with-perl --override-system-vi vim || true
+install scala || true
+install haskell-platform || true
+install gnu-tar || true
 
 # ruby
-install autoconf
-install pkg-config
-install openssl
+install autoconf || true
+install pkg-config || true
+install openssl || true
 
 # emacs
-install cmigemo
-install --with-lang-en aspell
-install --japanese emacs
+install cmigemo || true
+install --with-lang-en aspell || true
+install --japanese emacs || true
+
