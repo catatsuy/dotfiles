@@ -1,4 +1,5 @@
 update
+tap phinze/homebrew-caks || true
 
 install zsh || true
 install tmux || true
@@ -25,3 +26,34 @@ install cmigemo || true
 install --with-lang-en aspell || true
 install --japanese emacs || true
 
+
+# cask
+install brew-cask || true
+cask install adobe-reader || true
+cask install dropbox || true
+cask install skype || true
+cask install alfred || true
+cask install google-chrome || true
+cask install firefox || true
+cask install kindle || true
+cask install kobito || true
+cask install virtualbox || true
+cask install vagrant || true
+cask install vlc || true
+cask install xtrafinder || true
+cask install dash || true
+cask install gyazo || true
+cask install limechat || true
+cask install gimp || true
+cask install skitch || true
+cask install android-file-transfer || true
+cask install calibre || true
+cask install inkscape || true
+
+# recommended development version
+# cask install iterm2 || true
+
+# add Caskroom to the search path of the Alfred
+cask alfred link
+
+cleanup
