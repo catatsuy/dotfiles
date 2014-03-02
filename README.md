@@ -1,11 +1,6 @@
 dotfiles
 ==================================
 
-    cd
-    git clone --recursive git://github.com/catatsuy/dotfiles.git
-    cd dotfiles
-    make
-
 ## Fast introduction
 
     curl -L https://raw.github.com/catatsuy/dotfiles/master/quick.sh | bash
