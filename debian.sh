@@ -13,6 +13,6 @@ update-alternatives --set editor /usr/bin/vim.nox
 sudo apt-get install -y ntp
 
 # for ruby
-aptitude -y install libssl-dev
-aptitude -y install libreadline5 libreadline-gplv2-dev
-aptitude -y install zlib1g zlib1g-dev
+apt-get install -y libssl-dev
+apt-get install -y libreadline5 libreadline-gplv2-dev
+apt-get install -y zlib1g zlib1g-dev
