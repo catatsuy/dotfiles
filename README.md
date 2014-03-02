@@ -8,7 +8,7 @@ dotfiles
 
 ## Fast introduction
 
-    curl -L https://gist.github.com/catatsuy/8193224/raw/quick.sh | bash
+    curl -L https://raw.github.com/catatsuy/dotfiles/master/quick.sh | bash
 
 ## Mac
 
