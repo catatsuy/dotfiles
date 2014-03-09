@@ -29,6 +29,10 @@ Brewfile:
 
     ./debian.sh
 
+## Vagrant
+
+    config.vm.provision "shell", path: "dotfiles/debian.sh"
+
 ## Ruby/Perl
 
     ./setup.sh
