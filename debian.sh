@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt-get update
+
 # common tools
 sudo apt-get install -y debconf-utils less lsof lv ncurses-term nkf ntpdate openssl openssh-server sudo rsync time unzip dstat iptstate hdparm linux-headers-`uname -r` tree
 
