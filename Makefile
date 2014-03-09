@@ -10,6 +10,7 @@ ln:
 	ln -sf ~/dotfiles/.aspell.conf      ~/.aspell.conf
 	ln -sf ~/dotfiles/dircolors-solarized/dircolors.256dark  ~/.dircolors
 	ln -sf ~/dotfiles/.screenrc         ~/.screenrc
+	ln -sf ~/dotfiles/.gemrc            ~/.gemrc
 
 gitignore:
 	git config --global core.excludesfile ~/.gitignore
