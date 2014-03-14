@@ -4,6 +4,8 @@ dotfiles
 ## Fast introduction
 
     curl -L https://raw.github.com/catatsuy/dotfiles/master/quick.sh | bash
+    # not installed curl
+    wget -O - https://raw.github.com/catatsuy/dotfiles/master/quick.sh | bash
 
 ## Mac
 
