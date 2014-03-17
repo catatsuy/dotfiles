@@ -24,7 +24,7 @@ install openssl || true
 # emacs
 install cmigemo || true
 install --with-lang-en aspell || true
-install --japanese emacs || true
+install --cocoa --japanese emacs || true
 
 
 # cask
