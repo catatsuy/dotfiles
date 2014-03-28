@@ -49,6 +49,7 @@ cask install skitch || true
 cask install android-file-transfer || true
 cask install calibre || true
 cask install inkscape || true
+cask install butter || true
 
 # recommended development version
 # cask install iterm2 || true
