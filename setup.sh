@@ -8,3 +8,6 @@ git clone https://github.com/sstephenson/rbenv-default-gems.git $HOME/.rbenv/plu
 git clone https://github.com/tokuhirom/plenv.git $HOME/.plenv
 mkdir -p $HOME/.plenv/plugins
 git clone https://github.com/tokuhirom/Perl-Build.git $HOME/.plenv/plugins/perl-build
+
+# nvm
+git clone https://github.com/creationix/nvm.git $HOME/.nvm
