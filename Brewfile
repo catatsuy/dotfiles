@@ -44,7 +44,6 @@ cask install vlc || true
 cask install xtrafinder || true
 cask install dash || true
 cask install gyazo || true
-cask install limechat || true
 cask install gimp || true
 cask install skitch || true
 cask install android-file-transfer || true
