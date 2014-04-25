@@ -34,7 +34,7 @@ Brewfile:
 
     config.vm.provision "shell", path: "dotfiles/debian.sh"
 
-## Ruby/Perl
+## Ruby/Perl/Node.js
 
     ./setup.sh
 
