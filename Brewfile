@@ -34,6 +34,7 @@ cask install dropbox || true
 cask install skype || true
 cask install alfred || true
 cask install google-chrome || true
+cask install google-japanese-ime || true
 cask install firefox || true
 cask install kindle || true
 cask install kobito || true

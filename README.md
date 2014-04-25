@@ -20,7 +20,6 @@ Brewfile:
 
 不足分
 
- * [Google 日本語入力](http://www.google.co.jp/ime/)
  * [iTerm2 - Mac OS Terminal Replacement](http://www.iterm2.com/#/section/downloads)
  * [XQuartz](https://xquartz.macosforge.org/landing/)
  * [サクサク引ける Rubyリファレンスマニュアル](http://miyamae.github.io/rubydoc-ja/)
