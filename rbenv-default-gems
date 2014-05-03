@@ -2,3 +2,4 @@ bundler
 gist
 pry
 pry-doc
+rubocop
