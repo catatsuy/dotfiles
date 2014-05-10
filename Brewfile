@@ -1,5 +1,5 @@
 update
-tap phinze/homebrew-caks || true
+tap caskroom/cask || true
 
 install zsh || true
 install tmux || true
@@ -25,7 +25,6 @@ install openssl || true
 install cmigemo || true
 install --with-lang-en aspell || true
 install --cocoa --japanese emacs || true
-
 
 # cask
 install brew-cask || true
