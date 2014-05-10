@@ -30,6 +30,20 @@ Brewfile:
 
     ./debian.sh
 
+## Git
+
+    git config --global user.name "catatsuy"
+    git config --global user.emali "catatsuy@catatsuy.org"
+
+### GitHub の .ssh/config
+
+    Host github.com
+      HostName github.com
+      User git
+      Port 22
+      IdentityFile ~/.ssh/id_rsa.github
+      Compression yes
+
 ## Vagrant
 
     config.vm.provision "shell", path: "dotfiles/debian.sh"
