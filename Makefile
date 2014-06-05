@@ -22,7 +22,7 @@ git:
 	git config --global merge.ff false
 	git config --global core.autocrlf input
 	git config --global core.excludesfile ~/.gitignore
-	git config --global core.pager "less -R"
+	git config --global core.pager "less -R --tabs=4"
 
 rbenv:
 	ln -s ~/dotfiles/rbenv-default-gems  ~/.rbenv/default-gems
