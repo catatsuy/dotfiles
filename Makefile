@@ -23,6 +23,7 @@ git:
 	git config --global core.autocrlf input
 	git config --global core.excludesfile ~/.gitignore
 	git config --global core.pager "less -R --tabs=4"
+	git config --global ghq.root ~/src
 
 rbenv:
 	ln -s ~/dotfiles/rbenv-default-gems  ~/.rbenv/default-gems
