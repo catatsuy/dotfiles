@@ -9,6 +9,7 @@ ln -sf ~/dotfiles/.aspell.conf      ~/.aspell.conf
 ln -sf ~/dotfiles/dircolors-solarized/dircolors.256dark  ~/.dircolors
 ln -sf ~/dotfiles/.screenrc         ~/.screenrc
 ln -sf ~/dotfiles/.emacs            ~/.emacs
+ln -sf ~/dotfiles/.toprc            ~/.toprc
 ln -sf ~/dotfiles/.gemrc            ~/.gemrc
 
 # git config
