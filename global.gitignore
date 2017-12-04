@@ -9,6 +9,7 @@
 auto-save-list
 tramp
 .\#*
+.tramp_history
 
 ## GLOBAL
 GPATH
