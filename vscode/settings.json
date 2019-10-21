@@ -1,0 +1,9 @@
+{
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "editor.fontFamily": "Bitstream Vera Sans Mono,Menlo, Monaco, 'Courier New', monospace",
+    "markdown-preview-enhanced.previewTheme": "github-dark.css",
+    "editor.tabSize": 2,
+    "files.insertFinalNewline": true,
+    "editor.renderControlCharacters": true
+}
