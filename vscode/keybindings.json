@@ -41,4 +41,13 @@
         "command": "-editor.action.joinLines",
         "when": "editorTextFocus && !editorReadonly"
     },
+    {
+        "key": "ctrl+x ctrl+b",
+        "command": "workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "ctrl+x ctrl+b",
+        "command": "workbench.action.quickOpen"
+    },
 ]
