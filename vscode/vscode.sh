@@ -5,7 +5,6 @@ pkglist=(
   ayrtonmassey.emacs-region
   bungcip.better-toml
   foxundermoon.shell-format
-  hidenba.open-junkfile
   jeff-hykin.better-shellscript-syntax
   letrieu.expand-region
   ms-vscode-remote.remote-containers
@@ -14,6 +13,7 @@ pkglist=(
   ms-vscode-remote.remote-wsl
   ms-vscode-remote.vscode-remote-extensionpack
   ms-vscode.Go
+  patricklee.vsnotes
   shardulm94.trailing-spaces
   shd101wyy.markdown-preview-enhanced
   yzhang.markdown-all-in-one

@@ -5,5 +5,28 @@
     "markdown-preview-enhanced.previewTheme": "github-dark.css",
     "editor.tabSize": 2,
     "files.insertFinalNewline": true,
-    "editor.renderControlCharacters": true
+    "editor.renderControlCharacters": true,
+    "window.zoomLevel": 0,
+    "vsnotes.defaultNotePath": "~/junk",
+    "vsnotes.defaultNoteTitle": "{dt}/{prefix}-{title}",
+    "vsnotes.tokens": [
+        {
+            "type": "datetime",
+            "token": "{dt}",
+            "format": "YYYY-MM",
+            "description": "Insert formatted datetime."
+        },
+        {
+            "type": "datetime",
+            "token": "{prefix}",
+            "format": "DD-HHmmss",
+            "description": "Insert formatted datetime for prefix."
+        },
+        {
+            "type": "title",
+            "token": "{title}",
+            "description": "Insert note title from input box.",
+            "format": "Untitled"
+        },
+    ],
 }
