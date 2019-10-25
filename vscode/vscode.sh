@@ -2,6 +2,8 @@
 
 # code --list-extensions
 pkglist=(
+  ayrtonmassey.emacs-region
+  bungcip.better-toml
   foxundermoon.shell-format
   hidenba.open-junkfile
   jeff-hykin.better-shellscript-syntax
@@ -14,7 +16,7 @@ pkglist=(
   ms-vscode.Go
   shardulm94.trailing-spaces
   shd101wyy.markdown-preview-enhanced
-  tuttieee.emacs-mcx
+  yzhang.markdown-all-in-one
   ziyasal.vscode-open-in-github
 )
 
