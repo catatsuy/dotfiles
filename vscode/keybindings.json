@@ -50,4 +50,9 @@
         "key": "ctrl+x ctrl+b",
         "command": "workbench.action.quickOpen"
     },
+    {
+        "key": "ctrl+l",
+        "command": "recenterTopBottom",
+        "when": "textInputFocus",
+    },
 ]

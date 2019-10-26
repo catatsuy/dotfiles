@@ -29,4 +29,10 @@
             "format": "Untitled"
         },
     ],
+    "git.enableStatusBarSync": false,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#151515",
+        "statusBar.noFolderBackground": "#151515",
+        "statusBar.debuggingBackground": "#151515",
+    },
 }

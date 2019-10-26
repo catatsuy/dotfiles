@@ -18,6 +18,7 @@ pkglist=(
   patricklee.vsnotes
   shardulm94.trailing-spaces
   shd101wyy.markdown-preview-enhanced
+  yeannylam.recenter-top-bottom
   yzhang.markdown-all-in-one
   ziyasal.vscode-open-in-github
 )
