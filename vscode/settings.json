@@ -37,4 +37,6 @@
         "statusBarItem.remoteBackground": "#252525",
         "statusBarItem.remoteForeground": "#e5e5e5",
     },
+    "editor.renderWhitespace": "all",
+    "editor.minimap.enabled": false,
 }

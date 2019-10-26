@@ -4,7 +4,9 @@
 pkglist=(
   ayrtonmassey.emacs-region
   bungcip.better-toml
+  EditorConfig.EditorConfig
   foxundermoon.shell-format
+  GitHub.vscode-pull-request-github
   jeff-hykin.better-shellscript-syntax
   letrieu.expand-region
   mauve.terraform
@@ -18,6 +20,7 @@ pkglist=(
   patricklee.vsnotes
   shardulm94.trailing-spaces
   shd101wyy.markdown-preview-enhanced
+  streetsidesoftware.code-spell-checker
   yeannylam.recenter-top-bottom
   yzhang.markdown-all-in-one
   ziyasal.vscode-open-in-github
