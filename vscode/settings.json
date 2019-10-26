@@ -34,5 +34,7 @@
         "statusBar.background": "#151515",
         "statusBar.noFolderBackground": "#151515",
         "statusBar.debuggingBackground": "#151515",
+        "statusBarItem.remoteBackground": "#252525",
+        "statusBarItem.remoteForeground": "#e5e5e5",
     },
 }
