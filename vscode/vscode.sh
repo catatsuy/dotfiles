@@ -2,6 +2,7 @@
 
 # code --list-extensions
 pkglist=(
+  1dot75cm.RPMSpec
   ayrtonmassey.emacs-region
   bungcip.better-toml
   EditorConfig.EditorConfig
@@ -9,6 +10,7 @@ pkglist=(
   GitHub.vscode-pull-request-github
   jeff-hykin.better-shellscript-syntax
   letrieu.expand-region
+  marchrock.vscode-ghq
   mauve.terraform
   ms-azuretools.vscode-docker
   ms-vscode-remote.remote-containers
@@ -21,6 +23,7 @@ pkglist=(
   shardulm94.trailing-spaces
   shd101wyy.markdown-preview-enhanced
   streetsidesoftware.code-spell-checker
+  william-voyek.vscode-nginx
   yeannylam.recenter-top-bottom
   yzhang.markdown-all-in-one
   ziyasal.vscode-open-in-github
