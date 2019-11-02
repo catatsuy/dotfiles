@@ -4,6 +4,7 @@
 pkglist=(
   1dot75cm.RPMSpec
   ayrtonmassey.emacs-region
+  brunnerh.insert-unicode
   bungcip.better-toml
   EditorConfig.EditorConfig
   foxundermoon.shell-format
