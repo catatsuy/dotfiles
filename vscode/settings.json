@@ -1,6 +1,17 @@
 {
     "go.formatTool": "goimports",
     "go.useLanguageServer": true,
+    "[go]": {
+        "editor.formatOnSave": true,
+    },
+    "gopls": {
+        "usePlaceholders": true, // add parameter placeholders when completing a function
+        // Experimental settings
+        "completeUnimported": true, // autocomplete unimported packages
+        "watchFileChanges": true, // watch file changes outside of the editor
+        "deepCompletion": true, // enable deep completion
+    },
+    "files.eol": "\n",
     "editor.fontFamily": "Bitstream Vera Sans Mono,Menlo, Monaco, 'Courier New', monospace",
     "markdown-preview-enhanced.previewTheme": "github-dark.css",
     "editor.tabSize": 2,
