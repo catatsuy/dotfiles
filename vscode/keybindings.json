@@ -72,4 +72,28 @@
         "command": "-workbench.action.quickOpenNavigateNextInViewPicker",
         "when": "inQuickOpen && inViewsPicker"
     },
+    {
+        "key": "ctrl+x ctrl+f",
+        "command": "workbench.explorer.fileView.focus"
+    },
+    {
+        "key": "enter",
+        "command": "list.toggleExpand",
+        "when": "listFocus && !inputFocus && explorerViewletVisible && filesExplorerFocus && explorerResourceIsFolder"
+    },
+    {
+        "key": "ctrl+o",
+        "command": "filesExplorer.openFilePreserveFocus",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsFolder && !inputFocus"
+    },
+    {
+        "key": "ctrl+x ctrl+f",
+        "command": "explorer.newFile",
+        "when": "listFocus && !inputFocus && explorerViewletVisible && filesExplorerFocus && explorerResourceIsFolder"
+    },
+    {
+        "key": "enter",
+        "command": "-renameFile",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    },
 ]
