@@ -2,5 +2,5 @@
 
 set -xe
 
-ln -s settings.json  ~/Library/Application\ Support/Code/User/
-ln -s keybindings.json  ~/Library/Application\ Support/Code/User/
+ln -s ${PWD}/settings.json  ~/Library/Application\ Support/Code/User/
+ln -s ${PWD}/keybindings.json  ~/Library/Application\ Support/Code/User/
