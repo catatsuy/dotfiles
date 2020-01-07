@@ -56,10 +56,6 @@
         "when": "textInputFocus",
     },
     {
-        "key": "ctrl+x ctrl+r",
-        "command": "extension.ghqAddToWorkSpace"
-    },
-    {
         "key": "ctrl+q",
         "command": "insert-unicode.insertTextExact"
     },
@@ -82,7 +78,7 @@
         "when": "listFocus && !inputFocus && explorerViewletVisible && filesExplorerFocus && explorerResourceIsFolder"
     },
     {
-        "key": "ctrl+o",
+        "key": "ctrl+m",
         "command": "filesExplorer.openFilePreserveFocus",
         "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsFolder && !inputFocus"
     },

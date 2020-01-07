@@ -24,6 +24,7 @@ pkglist=(
   shardulm94.trailing-spaces
   shd101wyy.markdown-preview-enhanced
   streetsidesoftware.code-spell-checker
+  thomas-baumgaertner.vcl
   william-voyek.vscode-nginx
   yeannylam.recenter-top-bottom
   yzhang.markdown-all-in-one
