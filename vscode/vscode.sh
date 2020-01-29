@@ -6,7 +6,9 @@ pkglist=(
   ayrtonmassey.emacs-region
   brunnerh.insert-unicode
   bungcip.better-toml
+  Compilenix.vscode-zonefile
   EditorConfig.EditorConfig
+  espresso3389.unicode-normalizer
   foxundermoon.shell-format
   GitHub.vscode-pull-request-github
   jeff-hykin.better-shellscript-syntax
@@ -20,6 +22,7 @@ pkglist=(
   ms-vscode-remote.remote-wsl
   ms-vscode-remote.vscode-remote-extensionpack
   ms-vscode.Go
+  mujichOk.vscode-project-name-in-statusbar
   patricklee.vsnotes
   shardulm94.trailing-spaces
   shd101wyy.markdown-preview-enhanced
