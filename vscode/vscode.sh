@@ -4,6 +4,7 @@
 pkglist=(
   1dot75cm.RPMSpec
   ayrtonmassey.emacs-region
+  bmewburn.vscode-intelephense-client
   brunnerh.insert-unicode
   bungcip.better-toml
   Compilenix.vscode-zonefile
@@ -24,11 +25,13 @@ pkglist=(
   ms-vscode.Go
   mujichOk.vscode-project-name-in-statusbar
   patricklee.vsnotes
+  rebornix.ruby
   shardulm94.trailing-spaces
   shd101wyy.markdown-preview-enhanced
   streetsidesoftware.code-spell-checker
   thomas-baumgaertner.vcl
   william-voyek.vscode-nginx
+  wingrunr21.vscode-ruby
   yeannylam.recenter-top-bottom
   yzhang.markdown-all-in-one
   ziyasal.vscode-open-in-github
