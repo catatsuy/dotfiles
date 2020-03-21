@@ -12,7 +12,7 @@
         "deepCompletion": true, // enable deep completion
     },
     "files.eol": "\n",
-    "editor.fontFamily": "Bitstream Vera Sans Mono,Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'Bitstream Vera Sans Mono', 'Menlo', 'Monaco', monospace",
     "markdown-preview-enhanced.previewTheme": "github-dark.css",
     "editor.tabSize": 2,
     "files.insertFinalNewline": true,
