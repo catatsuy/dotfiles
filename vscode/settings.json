@@ -50,4 +50,5 @@
     },
     "editor.renderWhitespace": "all",
     "editor.minimap.enabled": false,
+    "git.ignoreLegacyWarning": true,
 }
