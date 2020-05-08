@@ -25,11 +25,14 @@ pkglist=(
   ms-vscode.Go
   mujichOk.vscode-project-name-in-statusbar
   patricklee.vsnotes
+  raynigon.nginx-formatter
   rebornix.ruby
+  redhat.vscode-yaml
   shardulm94.trailing-spaces
   shd101wyy.markdown-preview-enhanced
   streetsidesoftware.code-spell-checker
   thomas-baumgaertner.vcl
+  vscoss.vscode-ansible
   william-voyek.vscode-nginx
   wingrunr21.vscode-ruby
   yeannylam.recenter-top-bottom
