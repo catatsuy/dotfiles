@@ -7,6 +7,7 @@ pkglist=(
   bmewburn.vscode-intelephense-client
   brunnerh.insert-unicode
   bungcip.better-toml
+  chrislajoie.vscode-modelines
   Compilenix.vscode-zonefile
   EditorConfig.EditorConfig
   espresso3389.unicode-normalizer
