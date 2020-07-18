@@ -12,18 +12,20 @@ pkglist=(
   EditorConfig.EditorConfig
   espresso3389.unicode-normalizer
   foxundermoon.shell-format
+  GitHub.github-vscode-theme
   GitHub.vscode-pull-request-github
+  golang.go
+  hangxingliu.vscode-nginx-conf-hint
+  hashicorp.terraform
   jeff-hykin.better-shellscript-syntax
   letrieu.expand-region
   marchrock.vscode-ghq
-  mauve.terraform
   ms-azuretools.vscode-docker
   ms-vscode-remote.remote-containers
   ms-vscode-remote.remote-ssh
   ms-vscode-remote.remote-ssh-edit
   ms-vscode-remote.remote-wsl
   ms-vscode-remote.vscode-remote-extensionpack
-  ms-vscode.Go
   mujichOk.vscode-project-name-in-statusbar
   patricklee.vsnotes
   raynigon.nginx-formatter
