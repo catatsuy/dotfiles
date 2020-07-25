@@ -7,7 +7,6 @@ ln -sf ~/dotfiles/.vimrc            ~/.vimrc
 ln -sf ~/dotfiles/global.gitignore  ~/.gitignore
 ln -sf ~/dotfiles/dircolors-solarized/dircolors.256dark  ~/.dircolors
 ln -sf ~/dotfiles/.screenrc         ~/.screenrc
-ln -sf ~/dotfiles/.toprc            ~/.toprc
 
 # git config
 git config --global core.editor vi
@@ -19,4 +18,4 @@ git config --global merge.ff false
 git config --global core.autocrlf input
 git config --global core.excludesfile ~/.gitignore
 git config --global core.pager "less -R --tabs=4"
-git config --global ghq.root ~/src
+# git config --global ghq.root ~/src
