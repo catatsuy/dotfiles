@@ -3,13 +3,24 @@
     "go.useLanguageServer": true,
     "[go]": {
         "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+        },
+        // Optional: Disable snippets, as they conflict with completion ranking.
+        "editor.snippetSuggestions": "none",
     },
     "gopls": {
-        "usePlaceholders": true, // add parameter placeholders when completing a function
-        // Experimental settings
-        "completeUnimported": true, // autocomplete unimported packages
-        "watchFileChanges": true, // watch file changes outside of the editor
-        "deepCompletion": true, // enable deep completion
+        // Add parameter placeholders when completing a function.
+        "usePlaceholders": true,
+        // If true, enable additional analyses with staticcheck.
+        // Warning: This will significantly increase memory usage.
+        "staticcheck": false,
+    },
+    "[go.mod]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+        },
     },
     "files.eol": "\n",
     "editor.fontFamily": "'Bitstream Vera Sans Mono', 'Menlo', 'Monaco', monospace",
