@@ -63,4 +63,5 @@
     "editor.minimap.enabled": false,
     "git.ignoreLegacyWarning": true,
     "workbench.colorTheme": "GitHub Dark",
+    "editor.copyWithSyntaxHighlighting": false,
 }
