@@ -9,20 +9,11 @@ curl -L https://raw.githubusercontent.com/catatsuy/dotfiles/master/quick.sh | ba
 wget -O - https://raw.githubusercontent.com/catatsuy/dotfiles/master/quick.sh | bash
 ```
 
-## Mac
-
-Homebrew:
-
-```
-xcode-select --install
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-```
-
 ## Git
 
 ```
 git config --global user.name "catatsuy"
-git config --global user.emali "catatsuy@catatsuy.org"
+git config --global user.email "catatsuy@catatsuy.org"
 ```
 
 ### .ssh/config
