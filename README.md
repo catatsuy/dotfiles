@@ -30,6 +30,12 @@ Host *
   ServerAliveCountMax 12
 ```
 
+## vscode
+
+```
+{Application App}/Contents/Resources/app/bin/code
+```
+
 ## .zsh
 
 https://github.com/catatsuy/dot.zsh
