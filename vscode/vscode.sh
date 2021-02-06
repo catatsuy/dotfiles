@@ -41,6 +41,7 @@ pkglist=(
   yeannylam.recenter-top-bottom
   yzhang.markdown-all-in-one
   ziyasal.vscode-open-in-github
+  zxh404.vscode-proto3
 )
 
 for i in ${pkglist[@]}; do
