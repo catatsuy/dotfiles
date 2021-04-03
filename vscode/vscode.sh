@@ -3,6 +3,7 @@
 # code --list-extensions
 pkglist=(
   1dot75cm.RPMSpec
+  ahmadalli.vscode-nginx-conf
   ayrtonmassey.emacs-region
   bmewburn.vscode-intelephense-client
   brunnerh.insert-unicode
@@ -26,6 +27,7 @@ pkglist=(
   ms-vscode-remote.remote-ssh-edit
   ms-vscode-remote.remote-wsl
   ms-vscode-remote.vscode-remote-extensionpack
+  ms-vscode.wordcount
   mujichOk.vscode-project-name-in-statusbar
   patricklee.vsnotes
   raynigon.nginx-formatter

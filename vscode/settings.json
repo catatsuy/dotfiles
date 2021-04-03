@@ -62,6 +62,6 @@
     "editor.renderWhitespace": "all",
     "editor.minimap.enabled": false,
     "git.ignoreLegacyWarning": true,
-    "workbench.colorTheme": "GitHub Dark",
     "editor.copyWithSyntaxHighlighting": false,
+    "workbench.colorTheme": "Visual Studio Dark",
 }
