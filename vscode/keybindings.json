@@ -6,54 +6,19 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+shift+-",
-        "command": "undo",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+g alt+g",
-        "command": "workbench.action.gotoLine"
-    },
-    {
-        "key": "ctrl+g",
-        "command": "-workbench.action.gotoLine"
-    },
-    {
-        "key": "ctrl+alt+\\",
-        "command": "editor.action.formatDocument.none",
-        "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorHasDocumentFormattingProvider && !editorReadonly"
-    },
-    {
-        "key": "ctrl+alt+\\",
-        "command": "editor.action.formatDocument",
-        "when": "editorHasDocumentFormattingProvider && editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+x ctrl+s",
-        "command": "workbench.action.files.save"
-    },
-    {
-        "key": "ctrl+s",
-        "command": "actions.find"
-    },
-    {
         "key": "ctrl+j",
         "command": "-editor.action.joinLines",
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+x ctrl+b",
-        "command": "workbench.action.quickOpenNavigateNextInFilePicker",
-        "when": "inFilesPicker && inQuickOpen"
+        "key": "ctrl+j",
+        "command": "-emacs-mcx.newLine",
+        "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+x ctrl+b",
-        "command": "workbench.action.quickOpen"
-    },
-    {
-        "key": "ctrl+l",
-        "command": "recenterTopBottom",
-        "when": "textInputFocus",
+        "key": "ctrl+j",
+        "command": "-emacs-mcx.isearchExit",
+        "when": "editorFocus && findWidgetVisible && !isComposing"
     },
     {
         "key": "ctrl+q",
@@ -67,29 +32,5 @@
         "key": "ctrl+q",
         "command": "-workbench.action.quickOpenNavigateNextInViewPicker",
         "when": "inQuickOpen && inViewsPicker"
-    },
-    {
-        "key": "ctrl+x ctrl+f",
-        "command": "workbench.explorer.fileView.focus"
-    },
-    {
-        "key": "enter",
-        "command": "list.toggleExpand",
-        "when": "listFocus && !inputFocus && explorerViewletVisible && filesExplorerFocus && explorerResourceIsFolder"
-    },
-    {
-        "key": "ctrl+m",
-        "command": "filesExplorer.openFilePreserveFocus",
-        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsFolder && !inputFocus"
-    },
-    {
-        "key": "ctrl+x ctrl+f",
-        "command": "explorer.newFile",
-        "when": "listFocus && !inputFocus && explorerViewletVisible && filesExplorerFocus && explorerResourceIsFolder"
-    },
-    {
-        "key": "enter",
-        "command": "-renameFile",
-        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
     },
 ]

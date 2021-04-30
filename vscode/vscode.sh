@@ -4,7 +4,6 @@
 pkglist=(
   1dot75cm.RPMSpec
   ahmadalli.vscode-nginx-conf
-  ayrtonmassey.emacs-region
   bmewburn.vscode-intelephense-client
   brunnerh.insert-unicode
   bungcip.better-toml
@@ -37,10 +36,10 @@ pkglist=(
   shd101wyy.markdown-preview-enhanced
   streetsidesoftware.code-spell-checker
   thomas-baumgaertner.vcl
+  tuttieee.emacs-mcx
   vscoss.vscode-ansible
   william-voyek.vscode-nginx
   wingrunr21.vscode-ruby
-  yeannylam.recenter-top-bottom
   yzhang.markdown-all-in-one
   ziyasal.vscode-open-in-github
   zxh404.vscode-proto3
