@@ -12,7 +12,6 @@ pkglist=(
   EditorConfig.EditorConfig
   espresso3389.unicode-normalizer
   foxundermoon.shell-format
-  GitHub.github-vscode-theme
   GitHub.vscode-pull-request-github
   golang.go
   hangxingliu.vscode-nginx-conf-hint
