@@ -23,7 +23,7 @@
         },
     },
     "files.eol": "\n",
-    "editor.fontFamily": "'Bitstream Vera Sans Mono', 'Menlo', 'Monaco', monospace",
+    "editor.fontFamily": "'Bitstream Vera Sans Mono', 'Menlo', 'Monaco', 'HiraginoSans-W3', monospace",
     "markdown-preview-enhanced.previewTheme": "github-dark.css",
     "editor.tabSize": 2,
     "files.insertFinalNewline": true,
@@ -64,4 +64,5 @@
     "git.ignoreLegacyWarning": true,
     "editor.copyWithSyntaxHighlighting": false,
     "workbench.colorTheme": "Visual Studio Dark",
+    "go.toolsManagement.autoUpdate": true,
 }
