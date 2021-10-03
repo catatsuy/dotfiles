@@ -62,7 +62,6 @@
     "editor.minimap.enabled": false,
     "git.ignoreLegacyWarning": true,
     "editor.copyWithSyntaxHighlighting": false,
-    "workbench.colorTheme": "Visual Studio Dark",
     "go.toolsManagement.autoUpdate": true,
     "[dockerfile]": {
         "editor.defaultFormatter": "ms-azuretools.vscode-docker"
