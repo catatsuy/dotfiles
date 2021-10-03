@@ -28,7 +28,6 @@
     "editor.tabSize": 2,
     "files.insertFinalNewline": true,
     "editor.renderControlCharacters": true,
-    "window.zoomLevel": 0,
     "vsnotes.defaultNotePath": "~/junk",
     "vsnotes.defaultNoteTitle": "{dt}/{prefix}-{title}",
     "vsnotes.tokens": [
@@ -65,4 +64,7 @@
     "editor.copyWithSyntaxHighlighting": false,
     "workbench.colorTheme": "Visual Studio Dark",
     "go.toolsManagement.autoUpdate": true,
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
 }

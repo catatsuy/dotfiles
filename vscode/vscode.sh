@@ -19,6 +19,7 @@ pkglist=(
   jeff-hykin.better-shellscript-syntax
   letrieu.expand-region
   marchrock.vscode-ghq
+  mosapride.zenkaku
   ms-azuretools.vscode-docker
   ms-vscode-remote.remote-containers
   ms-vscode-remote.remote-ssh
@@ -36,7 +37,6 @@ pkglist=(
   streetsidesoftware.code-spell-checker
   thomas-baumgaertner.vcl
   tuttieee.emacs-mcx
-  vscoss.vscode-ansible
   william-voyek.vscode-nginx
   wingrunr21.vscode-ruby
   yzhang.markdown-all-in-one
