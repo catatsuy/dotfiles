@@ -22,10 +22,6 @@
     },
     {
         "key": "ctrl+q",
-        "command": "insert-unicode.insertTextExact"
-    },
-    {
-        "key": "ctrl+q",
         "command": "-workbench.action.quickOpenView"
     },
     {
@@ -44,31 +40,36 @@
     {
         "key": "ctrl+a",
         "command": "-emacs-mcx.isearchExit",
-        "when": "editorFocus && findWidgetVisible && !config.emacs-mcx.cursorMoveOnFindWidget && !isComposing && !replaceInputFocussed"
+        "when": "!config.emacs-mcx.cursorMoveOnFindWidget && editorFocus && findWidgetVisible && !replaceInputFocussed && !isComposing"
     },
     {
         "key": "ctrl+e",
         "command": "-emacs-mcx.isearchExit",
-        "when": "editorFocus && findWidgetVisible && !config.emacs-mcx.cursorMoveOnFindWidget && !isComposing && !replaceInputFocussed"
+        "when": "!config.emacs-mcx.cursorMoveOnFindWidget && editorFocus && findWidgetVisible && !replaceInputFocussed && !isComposing"
     },
     {
         "key": "ctrl+b",
         "command": "-emacs-mcx.isearchExit",
-        "when": "editorFocus && findWidgetVisible && !config.emacs-mcx.cursorMoveOnFindWidget && !isComposing && !replaceInputFocussed"
+        "when": "!config.emacs-mcx.cursorMoveOnFindWidget && editorFocus && findWidgetVisible && !replaceInputFocussed && !isComposing"
     },
     {
         "key": "ctrl+f",
         "command": "-emacs-mcx.isearchExit",
-        "when": "editorFocus && findWidgetVisible && !config.emacs-mcx.cursorMoveOnFindWidget && !isComposing && !replaceInputFocussed"
+        "when": "!config.emacs-mcx.cursorMoveOnFindWidget && editorFocus && findWidgetVisible && !replaceInputFocussed && !isComposing"
     },
     {
         "key": "ctrl+n",
         "command": "-emacs-mcx.isearchExit",
-        "when": "editorFocus && findWidgetVisible && !config.emacs-mcx.cursorMoveOnFindWidget && !isComposing && !replaceInputFocussed"
+        "when": "!config.emacs-mcx.cursorMoveOnFindWidget && editorFocus && findWidgetVisible && !replaceInputFocussed && !isComposing"
     },
     {
         "key": "ctrl+p",
         "command": "-emacs-mcx.isearchExit",
-        "when": "editorFocus && findWidgetVisible && !config.emacs-mcx.cursorMoveOnFindWidget && !isComposing && !replaceInputFocussed"
+        "when": "!config.emacs-mcx.cursorMoveOnFindWidget && editorFocus && findWidgetVisible && !replaceInputFocussed && !isComposing"
+    },
+    {
+        "key": "enter",
+        "command": "-emacs-mcx.isearchExit",
+        "when": "editorFocus && findWidgetVisible && !replaceInputFocussed && !isComposing"
     },
 ]
