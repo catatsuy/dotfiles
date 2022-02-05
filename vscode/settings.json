@@ -28,7 +28,7 @@
     "editor.tabSize": 2,
     "files.insertFinalNewline": true,
     "editor.renderControlCharacters": true,
-    "editor.find.seedSearchStringFromSelection": false,
+    "editor.find.seedSearchStringFromSelection": "never",
     "vsnotes.defaultNotePath": "~/junk",
     "vsnotes.defaultNoteTitle": "{dt}/{prefix}-{title}",
     "vsnotes.tokens": [
