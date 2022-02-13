@@ -72,4 +72,19 @@
         "command": "-emacs-mcx.isearchExit",
         "when": "editorFocus && findWidgetVisible && !replaceInputFocussed && !isComposing"
     },
+    {
+        "key": "ctrl+[",
+        "command": "emacs-mcx.isearchExit",
+        "when": "!config.emacs-mcx.cursorMoveOnFindWidget && editorFocus && findWidgetVisible && !replaceInputFocussed && !isComposing"
+    },
+    {
+        "key": "shift+enter",
+        "command": "emacs-mcx.isearchBackward",
+        "when": "!findInputFocussed"
+    },
+    {
+        "key": "shift+enter",
+        "command": "editor.action.previousMatchFindAction",
+        "when": "findInputFocussed"
+    },
 ]
