@@ -33,13 +33,11 @@ pkglist=(
   rebornix.ruby
   redhat.vscode-yaml
   shardulm94.trailing-spaces
-  shd101wyy.markdown-preview-enhanced
   streetsidesoftware.code-spell-checker
   thomas-baumgaertner.vcl
   tuttieee.emacs-mcx
   william-voyek.vscode-nginx
   wingrunr21.vscode-ruby
-  yzhang.markdown-all-in-one
   ziyasal.vscode-open-in-github
   zxh404.vscode-proto3
 )
