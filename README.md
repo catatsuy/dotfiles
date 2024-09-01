@@ -14,6 +14,8 @@ wget -O - https://raw.githubusercontent.com/catatsuy/dotfiles/master/quick.sh | 
 ```
 git config --global user.name "catatsuy"
 git config --global user.email "catatsuy@catatsuy.org"
+
+git config --global alias.rd '!branch=$(basename $(git symbolic-ref refs/remotes/origin/HEAD)); git rebase origin/$branch'
 ```
 
 ### .ssh/config
