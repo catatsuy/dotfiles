@@ -15,7 +15,11 @@ wget -O - https://raw.githubusercontent.com/catatsuy/dotfiles/master/quick.sh | 
 git config --global user.name "catatsuy"
 git config --global user.email "catatsuy@catatsuy.org"
 
+git config --global alias.sb '!git diff -w | bento -branch -model "gpt-4o-mini"'
+git config --global alias.sc '!git diff -w --staged | bento -commit -model "gpt-4o-mini"'
 git config --global alias.rd '!branch=$(basename $(git symbolic-ref refs/remotes/origin/HEAD)); git rebase origin/$branch'
+git config --global alias.rv '!git diff -w | bento -review -language Japanese'
+git config --global alias.lt '!git tag | sort -V | tail -n 1'
 ```
 
 ### .ssh/config
