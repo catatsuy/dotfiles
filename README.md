@@ -22,6 +22,13 @@ git config --global alias.rv '!git diff -w | bento -review -language Japanese'
 git config --global alias.lt '!git tag | sort -V | tail -n 1'
 ```
 
+## npm
+
+```
+# https://shisho.dev/docs/t/guard/quickstart/npm/
+npm config set registry https://npm.flatt.tech/
+```
+
 ### .ssh/config
 
 ```
