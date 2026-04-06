@@ -43,3 +43,7 @@ git config --global core.excludesfile ~/.gitignore
 git config --global rebase.autoSquash true
 git config --global rebase.autoStash true
 git config --global rebase.updateRefs true
+
+# refs: https://zenn.dev/hnw/articles/e0168f5b2c8115
+git config --global diff.wordRegex "[a-zA-Z0-9_]+|[ぁ-ん]+|[ァ-ヶー]+|[一-龥々〇〆]+|."
+git config --global alias.wdiff "diff --color-words"
