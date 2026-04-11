@@ -20,6 +20,11 @@ git config --global alias.sc '!git diff -w --staged | bento -commit -model "gpt-
 git config --global alias.rd '!branch=$(basename $(git symbolic-ref refs/remotes/origin/HEAD)); git rebase origin/$branch'
 git config --global alias.rv '!git diff -w | bento -review -language Japanese'
 git config --global alias.lt '!git tag | sort -V | tail -n 1'
+
+# refs: https://zenn.dev/hnw/articles/e0168f5b2c8115
+# mac only
+git config --global diff.wordRegex "[a-zA-Z0-9_]+|[ぁ-ん]+|[ァ-ヶー]+|[一-龥々〇〆]+|."
+git config --global alias.wdiff "diff --color-words"
 ```
 
 ## npm
