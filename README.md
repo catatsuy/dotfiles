@@ -32,6 +32,8 @@ git config --global alias.wdiff "diff --color-words"
 ```
 # https://shisho.dev/docs/t/guard/quickstart/npm/
 npm config set registry https://npm.flatt.tech/
+npm config set ignore-scripts true
+npm config set min-release-age 1
 ```
 
 ### .ssh/config
